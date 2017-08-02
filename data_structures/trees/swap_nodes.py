@@ -7,12 +7,14 @@ class Node:
         self.right = None
 
 def print_tree(root):
+    # inorder recursive
     # if not root: return
     #
     # print_tree(root.left)
     # sys.stdout.write(str(root.data) + ' ')
     # print_tree(root.right)
 
+    # inorder iterative
     stack = []
     node = root
 

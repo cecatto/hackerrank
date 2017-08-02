@@ -1,4 +1,5 @@
 #!/bin/python3
+# fails
 
 r, c = map(int, input().strip().split(' '))
 m = []
